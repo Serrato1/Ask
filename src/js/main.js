@@ -73,9 +73,9 @@
 let yesButton = $('#yes-button');
 let noButton = $('#no-button');
 yesButton.on('click',()=>{
-  window.location.href = 'http://localhost:5501/yes.html'
+  window.location.href = 'https://kind-volhard-66b03e.netlify.app/yes.html'
 })
 
 noButton.on('click',()=>{
-  window.location.href = 'http://localhost:5501/no.html'
+  window.location.href = 'https://kind-volhard-66b03e.netlify.app/no.html'
 })
