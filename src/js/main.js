@@ -69,3 +69,13 @@
     })
   }
 }())
+
+let yesButton = $('#yes-button');
+let noButton = $('#no-button');
+yesButton.on('click',()=>{
+  window.location.href = 'http://localhost:5501/yes.html'
+})
+
+noButton.on('click',()=>{
+  window.location.href = 'http://localhost:5501/no.html'
+})
